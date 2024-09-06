@@ -10,6 +10,7 @@ public with sharing class TriggerHandlerTest {
                 opp.StageName = 'Closed Lost';
                 opp.Type = 'Existing Customer - Upgrade';
                 opp.Amount = 120000;
+                opp.CloseDate = Date.today();
 
                 listOpportu.add(opp);
 
